@@ -1,0 +1,15 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="139.126" Width="354.938">
+    <Grid Background="#FFF9CECE">
+        <Button Content="Ввод" HorizontalAlignment="Left" Margin="233,42,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click" Background="#FFEA3636" Foreground="White"/>
+        <TextBox x:Name="txtB1" HorizontalAlignment="Left" Height="23" Margin="70,42,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="145" TextChanged="TextBox_TextChanged"/>
+        <TextBlock HorizontalAlignment="Left" Margin="70,10,0,0" TextWrapping="Wrap" Text="Введите пароль" VerticalAlignment="Top" FontSize="20"/>
+
+    </Grid>
+</Window>
